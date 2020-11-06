@@ -18,6 +18,9 @@ from watchdog.events import FileSystemEventHandler
 
 
 # 训练模型
+from defect_detection.load_data import get_all_files
+
+
 def training():
     N_CLASSES = 3
     IMG_SIZE = 208
